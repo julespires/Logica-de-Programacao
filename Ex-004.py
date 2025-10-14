@@ -3,6 +3,7 @@ Faça um programa que receba o salário de um funcionário e o percentual de aum
 o valor do aumento e o novo salário.
 Autor:Jules do Nascimento Pires
 Ex:004
+Data:01/10/2025
 '''
 
 # Entrada dos dados
