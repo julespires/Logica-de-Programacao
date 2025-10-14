@@ -4,6 +4,7 @@ sabendo-se que o funcionário tem gratificação de 5% sobre o salário base e p
 sobre o salário base.
 Autor:Jules do Nascimento Pires
 Ex-005
+Data:01/10/2025
 '''
 
 # Entrada do salário base
