@@ -2,6 +2,7 @@
 Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números.
 Autor:Jules do Nascimento Pires
 Ex:002
+Data:01/10/2025
 '''
 
 # Entrada de dados
