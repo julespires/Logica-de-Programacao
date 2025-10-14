@@ -3,6 +3,7 @@ Faça um programa que receba o salário de um funcionário, calcule e mostre o n
 que este sofreu um aumento de 25%.
 Autor:Jules do Nascimento Pires
 Ex:003
+Data:01/10/2025
 '''
 
 # Entrada do salário
