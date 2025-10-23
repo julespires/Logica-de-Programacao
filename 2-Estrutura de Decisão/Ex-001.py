@@ -1,23 +1,26 @@
 '''
-Faça um programa que receba dois númerso informados pelo usuário imprima e mostre o maior deles.
+Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a
+mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 Autor:Jules do Nascimento Pires
 Ex:001
-Data:22/10/2025
+Data:23/10/2025
 '''
 
-# Biblioteca de sistemas
-import os
+# Entrada das notas
+nota1 = float(input('Primeira nota:'))
+nota2 = float(input("Segunda nota:"))
+nota3 = float(input("Terçeira nota:"))
+nota4 = float(input("Quarta nota:"))
 
-# Limpa a tela
-os.system('cls')
+# Calcula a média aritimética
+media = (nota1 + nota2 + nota3 ) / 3
 
-# Guarda os números 
-num1 = int(input("Primeiro valor:"))
-num2 = int(input("Segundo valor:"))
+# Mostra a média
+print("Média aritimética:{:.2f}".format(media))
 
 # Condições
-if (num1 > num2):
-    print("O número {} é maior!".format(num1))
+if (media >= 7):
+    print('Aluno aprovado"')
 
 else:
-    print("O número {} é maior!".format(num2))
+    print('Aluno reprovado')
