@@ -14,7 +14,7 @@ num2 = int(input("Segundo valor:"))
 # Limpa a tela
 os.system('cls')
 
-# CCondições
+# Condições
 if (num1 < num2):
     print("O número {} é menor!".format(num1))
 
