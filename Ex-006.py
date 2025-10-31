@@ -16,4 +16,4 @@ gratificacao = 5 / 100
 novoSalario = salario + gratificacao - imposto
 
 # Mostra o novo salário
-print("Novo salário: R$".format(novoSalario))
+print("Novo salário: R${}".format(novoSalario))
