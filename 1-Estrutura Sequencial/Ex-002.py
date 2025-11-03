@@ -6,7 +6,7 @@ Data:01/11/2025
 '''
 
 # Entrada das notas
-nota1 = float(input('Primeira nota:"))
+nota1 = float(input('Primeira nota:'))
 nota2 = float(input('Segunda nota:'))
 nota3 = float(input('Terçeira nota:'))
 
