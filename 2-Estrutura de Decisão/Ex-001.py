@@ -19,6 +19,11 @@ Ex:001
 Data:
 '''
 
-num1 = int(input('Primeiro valor:'))
-num2 = int(input('Segundo número:'))
+trabLaboratorio = float(input('Nota trabalho de Laboratório:'))
+avSemestral = float(input('Nota avaliação Semestral:'))
+exame = float(input('Nota exame'))
+
+media = (trabLaboratorio * 2 + avSemestral * 3 + exame * 5 / 10)
+
+print('Média ponderada:{}'.format(media))
 
