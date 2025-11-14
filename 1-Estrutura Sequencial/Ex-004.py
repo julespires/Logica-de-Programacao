@@ -1,23 +1,20 @@
 '''
-Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário, sabendo-se
-que este sofreu um aumento de 25%.
+Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
+entre eles.
+Ex:
+Digite um valor: 8
+Digite outro valor: 5
+A soma entre 8 e 5 é igual a 13.
 Autor:Jules do Nascimento Pires
 Ex:004
-Data:01/11/2025
 '''
 
-# Utilização da biblioteca OS
-import os
+# Entrada dos números
+num1 = int(input('Primeiro valor:'))
+num2 = int(input('Segundo valor:'))
 
-# Limpa a tela
-os.system('cls')
+# Realiza a soma
+soma = num1 + num2
 
-# Entrada do salário
-salario = float(input('Salário do Funcionário R$:'))
-
-# Calcula o aumento e o novo salário
-aumento = salario * 25 / 100
-novoSalario = salario + aumento
-
-# Mostra o salário com aumento de 25%
-print("Novo salário com aumento de 25% R$:{:.2f}".format(novoSalario))
+# Mostra o resultado
+print('A soma entre {} + {} = {}'.format(num1,num2,soma))

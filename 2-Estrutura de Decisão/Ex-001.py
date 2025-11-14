@@ -1,29 +1,20 @@
 '''
-A nota final de um estudante é calculada a partir de três notas atribuídas, respectivamente, a um trabalho
-de laboratório, a uma avaliação semestral e a um exame final. A média das três notas mencionadas obedece 
-aos pesos a seguir:
-NOTA                                             PESO
-Trabalho de laboratório                           2
-Avaliação semestral                               3
-Exame final                                       5
-Faça um programa que receba as três notas, calcule e mostre a média ponderada e o conceito que segue
-a tabela:
-MÉDIA PONDERADA                                CONCEITO
-8,0 10,0                                         A
-7,0 8,0                                          B
-6,0 7,0                                          C
-5,0 6,0                                          D
-0,0 5,0                                          E
+Faça um programa que receba dois números informados pelo usuário e mostre o maior.
 Autor:Jules do Nascimento Pires
 Ex:001
 Data:
 '''
 
-trabLaboratorio = float(input('Nota trabalho de Laboratório:'))
-avSemestral = float(input('Nota avaliação Semestral:'))
-exame = float(input('Nota exame'))
+# Entrada dos valores
+num1 = int(input('Primeiro valor:'))
+num2 = int(input('Segundo valor:'))
 
-media = (trabLaboratorio * 2 + avSemestral * 3 + exame * 5 / 10)
+# Condições
+if num1 > num2:
+    print('O número {} é o maior!'.format(num1))
 
-print('Média ponderada:{}'.format(media))
+elif num2 > num1:
+    print('O número {} é o maior!'.format(num2))
 
+else:
+    print('Os valores são iguais!')
