@@ -5,7 +5,19 @@ Ex:005
 Data:
 '''
 
-from datetime import date
+
+import os
+
+os.system('cls')
 
 anoNascimento = int(input('Informe o ano de nascimento:'))
+anoAtual = int(input('Informe o ano atual:'))
 
+idadePessoa = anoAtual - anoNascimento
+
+print('Sua idade é {} anos'.format(idadePessoa))
+
+if (idadePessoa >= 18):
+    print('Você já pode votar!')
+else:
+    print('Você não pode votar!')
