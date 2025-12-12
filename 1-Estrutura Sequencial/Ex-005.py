@@ -2,7 +2,7 @@
 Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina.
 Autor:Jules do Nascimento Pires
 Ex:005
-Data:16/11/2025
+Data:01/02/2026
 '''
 
 # Biblioteca de sistema

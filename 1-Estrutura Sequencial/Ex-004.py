@@ -7,6 +7,7 @@ Digite outro valor: 5
 A soma entre 8 e 5 é igual a 13.
 Autor:Jules do Nascimento Pires
 Ex:004
+Data:01/01/2026
 '''
 
 # Entrada dos números

@@ -2,7 +2,7 @@
 Faça um programa que leia um número inteiro e mostre o seu antecessor e seu sucessor.
 Autor:Jules do Nascimento Pires
 Ex:007
-Data:16/11/2025
+Data:01/02/2026
 '''
 
 # Biblioteca de sistema

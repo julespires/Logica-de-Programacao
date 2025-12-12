@@ -2,7 +2,7 @@
 Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem.
 Jules do Nascimento Pires
 Ex-003
-Data:08/11/2025
+Data:01/01/2026
 '''
 
 # Entrada do nome do funcionário
